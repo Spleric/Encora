@@ -3,13 +3,20 @@ A HTML5 Library to bring 'Page' rendering, Template Engine to the client side an
 
 To get started:
 
-p = new Page({ 
-  'title': '',
-  'meta_description: '',
-  
-    style: '',
 
-    header: 'header_generic',
-    footer: 'footer_generic'
-});
+Initate a new variable with the Page Class:
 
+  page = new Page({
+        meta: [{
+          title: 'Breaking News Updates, Latest News Headlines, Photos & Videos News',
+          description: 'META Description',
+        }],
+
+        require: ['account', 'theme'],
+        apps: ['radio'],
+
+        style: '',
+
+        header: 'header_generic',
+        footer: 'footer_generic'
+      });
