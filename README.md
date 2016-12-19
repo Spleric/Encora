@@ -15,8 +15,7 @@ Initate a new variable with the Page Class:
           title: 'Page Title',
           description: 'Page Description',
         }],
-        
-        
+         
         //Include pre-built or your own custom built apps
         apps: ['radio'],
 
