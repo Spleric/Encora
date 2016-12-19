@@ -6,7 +6,8 @@ To get started:
 
 Initate a new variable with the Page Class:
 
-   ```page = new Page({
+   ```javascript
+   page = new Page({
          meta: [{
           title: 'Breaking News Updates, Latest News Headlines, Photos & Videos News',
           description: 'META Description',
