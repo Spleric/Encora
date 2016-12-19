@@ -1,7 +1,7 @@
 # Encora
 A HTML5 Library to bring 'Page' rendering, Template Engine to the client side and accelerate performance.
 
-It also includes a complete Grid System, Themeing, Time & Date, UX Design, Animations, Plugins, Media manipulation and much more..
+It also includes a complete Grid System, Themeing, Time & Date, UX Design, Animations, Plugins, JSON Parsing, Media manipulation and much more..
 
 To get started:
 
