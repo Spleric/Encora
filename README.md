@@ -24,4 +24,11 @@ Initate a new variable with the Page Class:
         //Have a predefined header and footer? Then combine them together!
         header: 'header_generic',
         footer: 'footer_generic'
-      });```
+      });
+
+```
+
+## Benefits?
+..* Remove the load from your Server
+..* You don't even need a Server Side language
+..* Complete flexbility with Programming
