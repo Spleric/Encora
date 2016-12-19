@@ -8,16 +8,20 @@ Initate a new variable with the Page Class:
 
    ```javascript
    page = new Page({
+         //Set the page META data
          meta: [{
-          title: 'Breaking News Updates, Latest News Headlines, Photos & Videos News',
-          description: 'META Description',
+          title: 'Page Title',
+          description: 'Page Description',
         }],
-
-        require: ['account', 'theme'],
+        
+        
+        //Include pre-built or your own custom built apps
         apps: ['radio'],
 
-        style: '',
+        //Set the stylesheets or a block of style sheets
+        style: 'default',
 
+        //Have a predefined header and footer? Then combine them together!
         header: 'header_generic',
         footer: 'footer_generic'
       });```
